@@ -1,0 +1,10 @@
+GMAIL_USERNAME: 'monarchmobile2@gmail.com'
+GMAIL_PASSWORD: 'lkasjdflka'
+
+SECRET_TOKEN: '6205c73c16a73639933c5e46339f91f8eba5c7c9ea9dfe3d089f0bbe527052b79bd6710bd67d544d9e5ec88268009cd53755542427127f2283db2fabb870b4e2'
+
+development:
+	MAILER_HOST: 'localhost:3000'
+
+production:
+	MAILER_HOST: 'heroku-app-name'
